@@ -1,0 +1,28 @@
+.share-creation-state__detour-toolbar-in-compose-area {
+    display: flex;
+    padding: 0 var(--spacing-two-x) var(--spacing-two-x);
+}
+.share-creation-state__detour-btn-container {
+    align-items: center;
+    display: flex;
+    padding-right: 0.8rem;
+}
+.artdeco-button, .peek-carousel-controls__button {
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: 167ms;
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    min-width: 6.4rem;
+    max-width: 480px;
+    overflow: hidden;
+    text-align: center;
+    transition-property: background-color,box-shadow,color;
+    vertical-align: middle;
+}
